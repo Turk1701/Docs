@@ -1,0 +1,76 @@
+--- Necesse crash log ---
+Generated on: 2025-10-17 07h08m05s
+Game state: Start client crash
+Game version: 1.0.1
+Game language: en
+Steam build: null
+Steam name: null
+Authentication: 76561197970256193
+Found 19 loaded mods:
+	aizsave.modsettingslib, v1.2.4 - Mod Settings Lib (3558238376)
+	bolo.bettertorch, v1.2.1 - A Better Torch (3311404008)
+	aphoreateam.aphoreamod, v1.0.18 - Aphorea Mod (3268603061)
+	vozart.cheatequipment, v1.0.5.1 - Cheat Equipment (3255070468)
+	eryr.configchests, v1.1 - Configurable Chest Size (3563590105)
+	oblio.endlesspotions, v1.2 - Endless buffs (3422634048)
+	oblio.extendedrange, v1.3 - Extended Range (3417452007)
+	oblio.justanuke, v2.0.2 - Just a Nuke (3380087898)
+	pt.kewaii.magicalcrops, v1.1.0 - Magical Crops (2831860349)
+	jakapoa.moveit, v1.0.4 - Move It! (3425715074)
+	aizsave.rpgmod, v0.6.16 - RPG Mod (3534267732)
+	bolo.sellmorepotions, v1.2 - Sell More Potions (3313880619)
+	oblio.whatisthat, v0.5.0 - What is that (3528091941)
+	trihardest.anotherveinminerfixed, v1.53 - AnotherVeinMiner - Fixed (2925557326)
+	eryr.necesse.expanded, v0.5 - Necesse Expanded (3546316000)
+	kharomikota.loom, v1.2 - Loom (3549799893)
+	oblio.advancedsummmons, v1.3.2 - Advanced Summons (3411904988)
+	oblio.chaoticnpc, v3.3.1 - Chaotic NPCs (3327073789)
+	jakapoa.rangedarsenal2, v3.0.3 - Ranged Arsenal (3413008392)
+Found 1 not enabled mods:
+	kn0wmad1c.theholyrail, v1.0.1 - The Holy Rail (2944534479)
+
+Exceptions:
+java.lang.NullPointerException: Cannot read field "isHostile" because "mob" is null
+	at necesse.inventory.item.placeableItem.MobSpawnItem.onItemRegistryClosed(MobSpawnItem.java:42)
+	at necesse.engine.registries.ItemRegistry.onRegistryClose(ItemRegistry.java:1610)
+	at necesse.engine.registries.GameRegistry.closeRegistry(GameRegistry.java:94)
+	at necesse.engine.GlobalData.loadAll(GlobalData.java:317)
+	at necesse.engine.loading.ClientLoader.loadGame(ClientLoader.java:160)
+	at necesse.StartPlatformClient.start(StartPlatformClient.java:14)
+	at StartSteamClient.main(StartSteamClient.java:6)
+
+Username: Turk
+OS: Microsoft Windows 10 build 19045
+OS arch: amd64
+CPU: AMD Ryzen 5 5500                               
+Memory total: 51.38 GB
+Memory used: 26.52 GB
+Java path: D:\SteamLibrary\steamapps\common\Necesse\jre
+Java version: 17.0.14
+JVM arguments:
+	-XX:+UnlockExperimentalVMOptions
+	-XX:+UseG1GC
+	-XX:G1NewSizePercent=20
+	-XX:G1ReservePercent=20
+	-XX:MaxGCPauseMillis=50
+	-XX:G1HeapRegionSize=32M
+	-Xms512m
+	-Xmx4G
+	-
+LWJGL version: 3.3.2+13
+AppData path: C:\Users\Turk\AppData\Roaming\Necesse\
+Working dir: D:\SteamLibrary\steamapps\common\Necesse
+Natives path: C:\Users\Turk\AppData\Local\Temp\lwjgl_Turk\3.3.2+13\x64
+JVM memory max: 4.29 GB
+JVM memory used: 104.77 MB / 671.09 MB (15.61%)
+
+Graphics card: NVIDIA Corporation, NVIDIA GeForce RTX 3060/PCIe/SSE2
+OpenGL version: 4.6.0 NVIDIA 581.29
+Found 2 displays:
+	Acer S231HL (ACB, 1a6)
+	SB220Q (ACB, 6ab)
+FBO: GL30
+
+Running server: No
+
+Running client: No
