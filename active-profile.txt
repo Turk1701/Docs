@@ -1,0 +1,35 @@
+## Disable a mod:
+## - Add a `#` before it.
+##
+## Disable mods not listed:
+## - Add `#` before `EnableNewMods` to automatically disable new mods.
+## - That's useful if you want to backup your activation list as a mod profile.
+EnableNewMods
+
+better-fertility-cheap-orange
+citywatch-radius
+contracts-rewards
+contracts-updates
+early-build-on-water-cheap-orange
+# free-farmfields-ubi
+guesthouse-radius
+guesthouse-radius-not-limited
+harbour-distance
+# hot-reload-ubi
+# infinite-material-ubi
+# infinite-money-ubi
+less-fields-in-all-plantfarms
+no-paved-road-maintenance
+nox-populationdensity-x8
+public-service-buildings-radius
+research-tax
+ship-crafting-time
+ship-slots-modification
+shrines-double-radius
+skins-unlock
+trader-specialists-cheats
+traiding-goods
+traiding-limit
+unit-crafting-time
+villa-guesthouse-slots
+villa-radius
