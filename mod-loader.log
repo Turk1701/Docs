@@ -1,0 +1,22 @@
+[2025-11-14 14:35:02.345] [info] Search mods...
+[2025-11-14 14:35:02.345] [info] Path: "<game dir>/mods/.ubi"
+[2025-11-14 14:35:02.345] [info] Path: "<game dir>/mods" (enabled by default)
+[2025-11-14 14:35:02.345] [info] Path: "C:/Users/Turk/Documents/Anno 117 - Pax Romana/mods" (enabled by default)
+[2025-11-14 14:35:02.351] [error] citywatch-radius: Invalid ModID format. Please use only lowercase letters, numbers and dashes, e.g. "fancy-mod-creatorname"
+[2025-11-14 14:35:02.351] [error] citywatch-radius: Invalid ModID format. Please use only lowercase letters, numbers and dashes, e.g. "fancy-mod-creatorname"
+[2025-11-14 14:35:02.356] [error] early-build-on-water: modinfo.json: 'Version' is missing
+[2025-11-14 14:35:02.365] [error] no-paved-road-maintenance: Invalid ModID format. Please use only lowercase letters, numbers and dashes, e.g. "fancy-mod-creatorname"
+[2025-11-14 14:35:02.368] [error] public-service-buildings-radius: Invalid ModID format. Please use only lowercase letters, numbers and dashes, e.g. "fancy-mod-creatorname"
+[2025-11-14 14:35:02.368] [error] public-service-buildings-radius: Invalid ModID format. Please use only lowercase letters, numbers and dashes, e.g. "fancy-mod-creatorname"
+[2025-11-14 14:35:02.375] [error] shrines-double-radius: Invalid ModID format. Please use only lowercase letters, numbers and dashes, e.g. "fancy-mod-creatorname"
+[2025-11-14 14:35:02.375] [error] shrines-double-radius: Invalid ModID format. Please use only lowercase letters, numbers and dashes, e.g. "fancy-mod-creatorname"
+[2025-11-14 14:35:02.389] [info] Enabled mods: 23 (plus 0 nested)
+[2025-11-14 14:35:02.440] [info] Load "[Gameplay] Allows you to build Guest Houses nearby" guesthouse-radius-not-limited@1.1.0 (from "mods/guesthouse-radius-not-limited")
+[2025-11-14 14:35:02.445] [info] Load "[Gameplay] Army creation in the barracks 1 minute" unit-crafting-time@1.1.0 (from "mods/unit-crafting-time")
+[2025-11-14 14:35:02.461] [info] Load "[Gameplay] Changes the coverage radius for the Guest House" guesthouse-radius@1.1.0 (from "mods/guesthouse-radius")
+[2025-11-14 14:35:02.467] [info] Load "[Gameplay] Doubles the size of the harbor" harbour-distance@1.1.0 (from "mods/harbour-distance")
+[2025-11-14 14:35:02.470] [info] Load "[Gameplay] Equal time for all studies" research-tax@1.1.0 (from "mods/research-tax")
+[2025-11-14 14:35:02.486] [info] Load "[Gameplay] Increases Contract rewards" contracts-rewards@1.2.0 (from "mods/contracts-rewards")
+[2025-11-14 14:35:02.489] [info] Load "[Gameplay] More slots for specialists" villa-guesthouse-slots@1.2.0 (from "mods/villa-guesthouse-slots")
+[2025-11-14 14:35:02.520] [info] Load "[Gameplay] No paved road maintenance cost" no-paved-road-maintenance@1.1.0 (from "mods/No Paved Road Maintenance")
+[2025-11-14 14:35:02.527] [info] Load "[Gameplay] Nox – More Population Per House" nox-populationdensity-x8@1.0.2 (from "mods/nox-populationdensity-x8")
