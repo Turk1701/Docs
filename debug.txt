@@ -1,0 +1,1506 @@
+[1773490739] can't guarantee 300 -- extending!
+(mysqli):  SET NAMES "utf8"   
+(mysqli):  SELECT TABLE_NAME, CASE WHEN TABLE_TYPE
+= 'VIEW' THEN 'V' ELSE 'T' END FROM
+INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA=schema()   
+(mysqli):   SELECT g2_PluginMap.g_pluginId,
+g2_PluginMap.g_active FROM g2_PluginMap WHERE g2_PluginMap.g_pluginType = ?
+   [ (0=>'s')
+(1=>'module')  ]
+opendir(/home/turk1701/hotelblues.com/gallery2/modules/)
+readdir(Resource id #17)
+readdir(Resource id #17)
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/albumselect)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/albumselect/module.inc)
+getParameter _version for albumselect plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'albumselect') (3=>'0')  ]
+getParameter _callbacks for albumselect plugin
+getParameter _requiredCoreApi for albumselect plugin
+getParameter _requiredModuleApi for albumselect plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/archiveupload)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/archiveupload/module.inc)
+getParameter _version for archiveupload plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'archiveupload') (3=>'0')  ]
+getParameter _callbacks for archiveupload plugin
+getParameter _requiredCoreApi for archiveupload plugin
+getParameter _requiredModuleApi for archiveupload plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/captcha)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/captcha/module.inc)
+getParameter _version for captcha plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'captcha') (3=>'0')  ]
+getParameter _callbacks for captcha plugin
+getParameter _requiredCoreApi for captcha plugin
+getParameter _requiredModuleApi for captcha plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/cart)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/cart/module.inc)
+getParameter _version for cart plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'cart') (3=>'0')  ]
+getParameter _callbacks for cart plugin
+getParameter _requiredCoreApi for cart plugin
+getParameter _requiredModuleApi for cart plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/colorpack)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/colorpack/module.inc)
+getParameter _version for colorpack plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'colorpack') (3=>'0')  ]
+getParameter _callbacks for colorpack plugin
+getParameter _requiredCoreApi for colorpack plugin
+getParameter _requiredModuleApi for colorpack plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/comment)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/comment/module.inc)
+getParameter _version for comment plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'comment') (3=>'0')  ]
+getParameter _callbacks for comment plugin
+getParameter _requiredCoreApi for comment plugin
+getParameter _requiredModuleApi for comment plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/core)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/core/module.inc)
+getParameter _version for core plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'core') (3=>'0')  ]
+getParameter _callbacks for core plugin
+getParameter _requiredCoreApi for core plugin
+getParameter _requiredModuleApi for core plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/customfield)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/customfield/module.inc)
+getParameter _version for customfield plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'customfield') (3=>'0')  ]
+getParameter _callbacks for customfield plugin
+getParameter _requiredCoreApi for customfield plugin
+getParameter _requiredModuleApi for customfield plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/dcraw)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/dcraw/module.inc)
+getParameter _version for dcraw plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'dcraw') (3=>'0')  ]
+getParameter _callbacks for dcraw plugin
+getParameter _requiredCoreApi for dcraw plugin
+getParameter _requiredModuleApi for dcraw plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/debug)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/debug/module.inc)
+getParameter _version for debug plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'debug') (3=>'0')  ]
+getParameter _callbacks for debug plugin
+getParameter _requiredCoreApi for debug plugin
+getParameter _requiredModuleApi for debug plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/digibug)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/digibug/module.inc)
+getParameter _version for digibug plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'digibug') (3=>'0')  ]
+getParameter _callbacks for digibug plugin
+getParameter _requiredCoreApi for digibug plugin
+getParameter _requiredModuleApi for digibug plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/dynamicalbum)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/dynamicalbum/module.inc)
+getParameter _version for dynamicalbum plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'dynamicalbum') (3=>'0')  ]
+getParameter _callbacks for dynamicalbum plugin
+getParameter _requiredCoreApi for dynamicalbum plugin
+getParameter _requiredModuleApi for dynamicalbum plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/ecard)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/ecard/module.inc)
+getParameter _version for ecard plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'ecard') (3=>'0')  ]
+getParameter _callbacks for ecard plugin
+getParameter _requiredCoreApi for ecard plugin
+getParameter _requiredModuleApi for ecard plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/exif)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/exif/module.inc)
+getParameter _version for exif plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'exif') (3=>'0')  ]
+getParameter _callbacks for exif plugin
+getParameter _requiredCoreApi for exif plugin
+getParameter _requiredModuleApi for exif plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/ffmpeg)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/ffmpeg/module.inc)
+getParameter _version for ffmpeg plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'ffmpeg') (3=>'0')  ]
+getParameter _callbacks for ffmpeg plugin
+getParameter _requiredCoreApi for ffmpeg plugin
+getParameter _requiredModuleApi for ffmpeg plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/flashvideo)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/flashvideo/module.inc)
+getParameter _version for flashvideo plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'flashvideo') (3=>'0')  ]
+getParameter _callbacks for flashvideo plugin
+getParameter _requiredCoreApi for flashvideo plugin
+getParameter _requiredModuleApi for flashvideo plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/fotokasten)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/fotokasten/module.inc)
+getParameter _version for fotokasten plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'fotokasten') (3=>'0')  ]
+getParameter _callbacks for fotokasten plugin
+getParameter _requiredCoreApi for fotokasten plugin
+getParameter _requiredModuleApi for fotokasten plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/gd)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/gd/module.inc)
+getParameter _version for gd plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'gd') (3=>'0')  ]
+getParameter _callbacks for gd plugin
+getParameter _requiredCoreApi for gd plugin
+getParameter _requiredModuleApi for gd plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/getid3)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/getid3/module.inc)
+getParameter _version for getid3 plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'getid3') (3=>'0')  ]
+getParameter _callbacks for getid3 plugin
+getParameter _requiredCoreApi for getid3 plugin
+getParameter _requiredModuleApi for getid3 plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/geturls)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/geturls/module.inc)
+getParameter _version for geturls plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'geturls') (3=>'0')  ]
+getParameter _callbacks for geturls plugin
+getParameter _requiredCoreApi for geturls plugin
+getParameter _requiredModuleApi for geturls plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/hidden)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/hidden/module.inc)
+getParameter _version for hidden plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'hidden') (3=>'0')  ]
+getParameter _callbacks for hidden plugin
+getParameter _requiredCoreApi for hidden plugin
+getParameter _requiredModuleApi for hidden plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/httpauth)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/httpauth/module.inc)
+getParameter _version for httpauth plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'httpauth') (3=>'0')  ]
+getParameter _callbacks for httpauth plugin
+getParameter _requiredCoreApi for httpauth plugin
+getParameter _requiredModuleApi for httpauth plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/icons)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/icons/module.inc)
+getParameter _version for icons plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'icons') (3=>'0')  ]
+getParameter _callbacks for icons plugin
+getParameter _requiredCoreApi for icons plugin
+getParameter _requiredModuleApi for icons plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/imageblock)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/imageblock/module.inc)
+getParameter _version for imageblock plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'imageblock') (3=>'0')  ]
+getParameter _callbacks for imageblock plugin
+getParameter _requiredCoreApi for imageblock plugin
+getParameter _requiredModuleApi for imageblock plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/imageframe)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/imageframe/module.inc)
+getParameter _version for imageframe plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'imageframe') (3=>'0')  ]
+getParameter _callbacks for imageframe plugin
+getParameter _requiredCoreApi for imageframe plugin
+getParameter _requiredModuleApi for imageframe plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/imagemagick)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/imagemagick/module.inc)
+getParameter _version for imagemagick plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'imagemagick') (3=>'0')  ]
+getParameter _callbacks for imagemagick plugin
+getParameter _requiredCoreApi for imagemagick plugin
+getParameter _requiredModuleApi for imagemagick plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/integrity)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/integrity/module.inc)
+getParameter _version for integrity plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'integrity') (3=>'0')  ]
+getParameter _callbacks for integrity plugin
+getParameter _requiredCoreApi for integrity plugin
+getParameter _requiredModuleApi for integrity plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/itemadd)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/itemadd/module.inc)
+getParameter _version for itemadd plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'itemadd') (3=>'0')  ]
+getParameter _callbacks for itemadd plugin
+getParameter _requiredCoreApi for itemadd plugin
+getParameter _requiredModuleApi for itemadd plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/jpegtran)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/jpegtran/module.inc)
+getParameter _version for jpegtran plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'jpegtran') (3=>'0')  ]
+getParameter _callbacks for jpegtran plugin
+getParameter _requiredCoreApi for jpegtran plugin
+getParameter _requiredModuleApi for jpegtran plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/keyalbum)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/keyalbum/module.inc)
+getParameter _version for keyalbum plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'keyalbum') (3=>'0')  ]
+getParameter _callbacks for keyalbum plugin
+getParameter _requiredCoreApi for keyalbum plugin
+getParameter _requiredModuleApi for keyalbum plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/linkitem)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/linkitem/module.inc)
+getParameter _version for linkitem plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'linkitem') (3=>'0')  ]
+getParameter _callbacks for linkitem plugin
+getParameter _requiredCoreApi for linkitem plugin
+getParameter _requiredModuleApi for linkitem plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/members)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/members/module.inc)
+getParameter _version for members plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'members') (3=>'0')  ]
+getParameter _callbacks for members plugin
+getParameter _requiredCoreApi for members plugin
+getParameter _requiredModuleApi for members plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/migrate)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/migrate/module.inc)
+getParameter _version for migrate plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'migrate') (3=>'0')  ]
+getParameter _callbacks for migrate plugin
+getParameter _requiredCoreApi for migrate plugin
+getParameter _requiredModuleApi for migrate plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/mime)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/mime/module.inc)
+getParameter _version for mime plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'mime') (3=>'0')  ]
+getParameter _callbacks for mime plugin
+getParameter _requiredCoreApi for mime plugin
+getParameter _requiredModuleApi for mime plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/mp3audio)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/mp3audio/module.inc)
+getParameter _version for mp3audio plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'mp3audio') (3=>'0')  ]
+getParameter _callbacks for mp3audio plugin
+getParameter _requiredCoreApi for mp3audio plugin
+getParameter _requiredModuleApi for mp3audio plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/multilang)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/multilang/module.inc)
+getParameter _version for multilang plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'multilang') (3=>'0')  ]
+getParameter _callbacks for multilang plugin
+getParameter _requiredCoreApi for multilang plugin
+getParameter _requiredModuleApi for multilang plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/multiroot)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/multiroot/module.inc)
+getParameter _version for multiroot plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'multiroot') (3=>'0')  ]
+getParameter _callbacks for multiroot plugin
+getParameter _requiredCoreApi for multiroot plugin
+getParameter _requiredModuleApi for multiroot plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/netpbm)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/netpbm/module.inc)
+getParameter _version for netpbm plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'netpbm') (3=>'0')  ]
+getParameter _callbacks for netpbm plugin
+getParameter _requiredCoreApi for netpbm plugin
+getParameter _requiredModuleApi for netpbm plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/newitems)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/newitems/module.inc)
+getParameter _version for newitems plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'newitems') (3=>'0')  ]
+getParameter _callbacks for newitems plugin
+getParameter _requiredCoreApi for newitems plugin
+getParameter _requiredModuleApi for newitems plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/nokiaupload)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/nokiaupload/module.inc)
+getParameter _version for nokiaupload plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'nokiaupload') (3=>'0')  ]
+getParameter _callbacks for nokiaupload plugin
+getParameter _requiredCoreApi for nokiaupload plugin
+getParameter _requiredModuleApi for nokiaupload plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/notification)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/notification/module.inc)
+getParameter _version for notification plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'notification') (3=>'0')  ]
+getParameter _callbacks for notification plugin
+getParameter _requiredCoreApi for notification plugin
+getParameter _requiredModuleApi for notification plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/panorama)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/panorama/module.inc)
+getParameter _version for panorama plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'panorama') (3=>'0')  ]
+getParameter _callbacks for panorama plugin
+getParameter _requiredCoreApi for panorama plugin
+getParameter _requiredModuleApi for panorama plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/password)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/password/module.inc)
+getParameter _version for password plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'password') (3=>'0')  ]
+getParameter _callbacks for password plugin
+getParameter _requiredCoreApi for password plugin
+getParameter _requiredModuleApi for password plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/permalinks)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/permalinks/module.inc)
+getParameter _version for permalinks plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'permalinks') (3=>'0')  ]
+getParameter _callbacks for permalinks plugin
+getParameter _requiredCoreApi for permalinks plugin
+getParameter _requiredModuleApi for permalinks plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/photoaccess)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/photoaccess/module.inc)
+getParameter _version for photoaccess plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'photoaccess') (3=>'0')  ]
+getParameter _callbacks for photoaccess plugin
+getParameter _requiredCoreApi for photoaccess plugin
+getParameter _requiredModuleApi for photoaccess plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/picasa)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/picasa/module.inc)
+getParameter _version for picasa plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'picasa') (3=>'0')  ]
+getParameter _callbacks for picasa plugin
+getParameter _requiredCoreApi for picasa plugin
+getParameter _requiredModuleApi for picasa plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/publishxp)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/publishxp/module.inc)
+getParameter _version for publishxp plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'publishxp') (3=>'0')  ]
+getParameter _callbacks for publishxp plugin
+getParameter _requiredCoreApi for publishxp plugin
+getParameter _requiredModuleApi for publishxp plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/quotas)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/quotas/module.inc)
+getParameter _version for quotas plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'quotas') (3=>'0')  ]
+getParameter _callbacks for quotas plugin
+getParameter _requiredCoreApi for quotas plugin
+getParameter _requiredModuleApi for quotas plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/randomhighlight)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/randomhighlight/module.inc)
+getParameter _version for randomhighlight plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'randomhighlight') (3=>'0')  ]
+getParameter _callbacks for randomhighlight plugin
+getParameter _requiredCoreApi for randomhighlight plugin
+getParameter _requiredModuleApi for randomhighlight plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/rating)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/rating/module.inc)
+getParameter _version for rating plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'rating') (3=>'0')  ]
+getParameter _callbacks for rating plugin
+getParameter _requiredCoreApi for rating plugin
+getParameter _requiredModuleApi for rating plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/rearrange)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/rearrange/module.inc)
+getParameter _version for rearrange plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'rearrange') (3=>'0')  ]
+getParameter _callbacks for rearrange plugin
+getParameter _requiredCoreApi for rearrange plugin
+getParameter _requiredModuleApi for rearrange plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/register)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/register/module.inc)
+getParameter _version for register plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'register') (3=>'0')  ]
+getParameter _callbacks for register plugin
+getParameter _requiredCoreApi for register plugin
+getParameter _requiredModuleApi for register plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/remote)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/remote/module.inc)
+getParameter _version for remote plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'remote') (3=>'0')  ]
+getParameter _callbacks for remote plugin
+getParameter _requiredCoreApi for remote plugin
+getParameter _requiredModuleApi for remote plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/replica)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/replica/module.inc)
+getParameter _version for replica plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'replica') (3=>'0')  ]
+getParameter _callbacks for replica plugin
+getParameter _requiredCoreApi for replica plugin
+getParameter _requiredModuleApi for replica plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/reupload)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/reupload/module.inc)
+getParameter _version for reupload plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'reupload') (3=>'0')  ]
+getParameter _callbacks for reupload plugin
+getParameter _requiredCoreApi for reupload plugin
+getParameter _requiredModuleApi for reupload plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/rewrite)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/rewrite/module.inc)
+getParameter _version for rewrite plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'rewrite') (3=>'0')  ]
+getParameter _callbacks for rewrite plugin
+getParameter _requiredCoreApi for rewrite plugin
+getParameter _requiredModuleApi for rewrite plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/rss)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/rss/module.inc)
+getParameter _version for rss plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'rss') (3=>'0')  ]
+getParameter _callbacks for rss plugin
+getParameter _requiredCoreApi for rss plugin
+getParameter _requiredModuleApi for rss plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/search)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/search/module.inc)
+getParameter _version for search plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'search') (3=>'0')  ]
+getParameter _callbacks for search plugin
+getParameter _requiredCoreApi for search plugin
+getParameter _requiredModuleApi for search plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/shutterfly)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/shutterfly/module.inc)
+getParameter _version for shutterfly plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'shutterfly') (3=>'0')  ]
+getParameter _callbacks for shutterfly plugin
+getParameter _requiredCoreApi for shutterfly plugin
+getParameter _requiredModuleApi for shutterfly plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/sitemap)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/sitemap/module.inc)
+getParameter _version for sitemap plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'sitemap') (3=>'0')  ]
+getParameter _callbacks for sitemap plugin
+getParameter _requiredCoreApi for sitemap plugin
+getParameter _requiredModuleApi for sitemap plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/sizelimit)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/sizelimit/module.inc)
+getParameter _version for sizelimit plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'sizelimit') (3=>'0')  ]
+getParameter _callbacks for sizelimit plugin
+getParameter _requiredCoreApi for sizelimit plugin
+getParameter _requiredModuleApi for sizelimit plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/slideshow)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/slideshow/module.inc)
+getParameter _version for slideshow plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'slideshow') (3=>'0')  ]
+getParameter _callbacks for slideshow plugin
+getParameter _requiredCoreApi for slideshow plugin
+getParameter _requiredModuleApi for slideshow plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/slideshowapplet)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/slideshowapplet/module.inc)
+getParameter _version for slideshowapplet plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'slideshowapplet') (3=>'0')  ]
+getParameter _callbacks for slideshowapplet plugin
+getParameter _requiredCoreApi for slideshowapplet plugin
+getParameter _requiredModuleApi for slideshowapplet plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/snapgalaxy)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/snapgalaxy/module.inc)
+getParameter _version for snapgalaxy plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'snapgalaxy') (3=>'0')  ]
+getParameter _callbacks for snapgalaxy plugin
+getParameter _requiredCoreApi for snapgalaxy plugin
+getParameter _requiredModuleApi for snapgalaxy plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/squarethumb)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/squarethumb/module.inc)
+getParameter _version for squarethumb plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'squarethumb') (3=>'0')  ]
+getParameter _callbacks for squarethumb plugin
+getParameter _requiredCoreApi for squarethumb plugin
+getParameter _requiredModuleApi for squarethumb plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/statistics)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/statistics/module.inc)
+getParameter _version for statistics plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'statistics') (3=>'0')  ]
+getParameter _callbacks for statistics plugin
+getParameter _requiredCoreApi for statistics plugin
+getParameter _requiredModuleApi for statistics plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/thumbnail)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/thumbnail/module.inc)
+getParameter _version for thumbnail plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'thumbnail') (3=>'0')  ]
+getParameter _callbacks for thumbnail plugin
+getParameter _requiredCoreApi for thumbnail plugin
+getParameter _requiredModuleApi for thumbnail plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/thumbpage)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/thumbpage/module.inc)
+getParameter _version for thumbpage plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'thumbpage') (3=>'0')  ]
+getParameter _callbacks for thumbpage plugin
+getParameter _requiredCoreApi for thumbpage plugin
+getParameter _requiredModuleApi for thumbpage plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/uploadapplet)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/uploadapplet/module.inc)
+getParameter _version for uploadapplet plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'uploadapplet') (3=>'0')  ]
+getParameter _callbacks for uploadapplet plugin
+getParameter _requiredCoreApi for uploadapplet plugin
+getParameter _requiredModuleApi for uploadapplet plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/useralbum)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/useralbum/module.inc)
+getParameter _version for useralbum plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'useralbum') (3=>'0')  ]
+getParameter _callbacks for useralbum plugin
+getParameter _requiredCoreApi for useralbum plugin
+getParameter _requiredModuleApi for useralbum plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/watermark)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/watermark/module.inc)
+getParameter _version for watermark plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'watermark') (3=>'0')  ]
+getParameter _callbacks for watermark plugin
+getParameter _requiredCoreApi for watermark plugin
+getParameter _requiredModuleApi for watermark plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/webcam)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/webcam/module.inc)
+getParameter _version for webcam plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'webcam') (3=>'0')  ]
+getParameter _callbacks for webcam plugin
+getParameter _requiredCoreApi for webcam plugin
+getParameter _requiredModuleApi for webcam plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/webdav)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/webdav/module.inc)
+getParameter _version for webdav plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'webdav') (3=>'0')  ]
+getParameter _callbacks for webdav plugin
+getParameter _requiredCoreApi for webdav plugin
+getParameter _requiredModuleApi for webdav plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/zipcart)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/zipcart/module.inc)
+getParameter _version for zipcart plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'zipcart') (3=>'0')  ]
+getParameter _callbacks for zipcart plugin
+getParameter _requiredCoreApi for zipcart plugin
+getParameter _requiredModuleApi for zipcart plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/addtoany)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/addtoany/module.inc)
+getParameter _version for addtoany plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'addtoany') (3=>'0')  ]
+getParameter _callbacks for addtoany plugin
+getParameter _requiredCoreApi for addtoany plugin
+getParameter _requiredModuleApi for addtoany plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/linksinthehead)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/linksinthehead/module.inc)
+getParameter _version for linksinthehead plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'linksinthehead') (3=>'0')  ]
+getParameter _callbacks for linksinthehead plugin
+getParameter _requiredCoreApi for linksinthehead plugin
+getParameter _requiredModuleApi for linksinthehead plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/mapv3)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/mapv3/module.inc)
+getParameter _version for mapv3 plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'mapv3') (3=>'0')  ]
+getParameter _callbacks for mapv3 plugin
+getParameter _requiredCoreApi for mapv3 plugin
+getParameter _requiredModuleApi for mapv3 plugin
+readdir(Resource id #17)
+is_dir(/home/turk1701/hotelblues.com/gallery2/modules/share)
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/share/module.inc)
+getParameter _version for share plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'module')
+(2=>'share') (3=>'0')  ]
+getParameter _callbacks for share plugin
+getParameter _requiredCoreApi for share plugin
+getParameter _requiredModuleApi for share plugin
+readdir(Resource id #17)
+closedir(Resource id #17)
+Plugin simple no longer installed
+(mysqli):   SELECT g2_PluginMap.g_pluginId,
+g2_PluginMap.g_active FROM g2_PluginMap WHERE g2_PluginMap.g_pluginType = ?
+   [ (0=>'s')
+(1=>'theme')  ]
+opendir(/home/turk1701/hotelblues.com/gallery2/themes/)
+readdir(Resource id #18)
+readdir(Resource id #18)
+readdir(Resource id #18)
+is_dir(/home/turk1701/hotelblues.com/gallery2/themes/ajaxian)
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/ajaxian/theme.inc)
+getParameter _version for ajaxian plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'theme')
+(2=>'ajaxian') (3=>'0')  ]
+getParameter _callbacks for ajaxian plugin
+getParameter _requiredCoreApi for ajaxian plugin
+getParameter _requiredThemeApi for ajaxian plugin
+readdir(Resource id #18)
+is_dir(/home/turk1701/hotelblues.com/gallery2/themes/carbon)
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/carbon/theme.inc)
+getParameter _version for carbon plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'theme')
+(2=>'carbon') (3=>'0')  ]
+getParameter _callbacks for carbon plugin
+getParameter _requiredCoreApi for carbon plugin
+getParameter _requiredThemeApi for carbon plugin
+readdir(Resource id #18)
+is_dir(/home/turk1701/hotelblues.com/gallery2/themes/classic)
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/classic/theme.inc)
+getParameter _version for classic plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'theme')
+(2=>'classic') (3=>'0')  ]
+getParameter _callbacks for classic plugin
+getParameter _requiredCoreApi for classic plugin
+getParameter _requiredThemeApi for classic plugin
+readdir(Resource id #18)
+is_dir(/home/turk1701/hotelblues.com/gallery2/themes/floatrix)
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/floatrix/theme.inc)
+getParameter _version for floatrix plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'theme')
+(2=>'floatrix') (3=>'0')  ]
+getParameter _callbacks for floatrix plugin
+getParameter _requiredCoreApi for floatrix plugin
+getParameter _requiredThemeApi for floatrix plugin
+readdir(Resource id #18)
+is_dir(/home/turk1701/hotelblues.com/gallery2/themes/hybrid)
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/hybrid/theme.inc)
+getParameter _version for hybrid plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'theme')
+(2=>'hybrid') (3=>'0')  ]
+getParameter _callbacks for hybrid plugin
+getParameter _requiredCoreApi for hybrid plugin
+getParameter _requiredThemeApi for hybrid plugin
+readdir(Resource id #18)
+is_dir(/home/turk1701/hotelblues.com/gallery2/themes/siriux)
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/siriux/theme.inc)
+getParameter _version for siriux plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'theme')
+(2=>'siriux') (3=>'0')  ]
+getParameter _callbacks for siriux plugin
+getParameter _requiredCoreApi for siriux plugin
+getParameter _requiredThemeApi for siriux plugin
+readdir(Resource id #18)
+is_dir(/home/turk1701/hotelblues.com/gallery2/themes/slider)
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/slider/theme.inc)
+getParameter _version for slider plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'theme')
+(2=>'slider') (3=>'0')  ]
+getParameter _callbacks for slider plugin
+getParameter _requiredCoreApi for slider plugin
+getParameter _requiredThemeApi for slider plugin
+readdir(Resource id #18)
+is_dir(/home/turk1701/hotelblues.com/gallery2/themes/tile)
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/tile/theme.inc)
+getParameter _version for tile plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'theme')
+(2=>'tile') (3=>'0')  ]
+getParameter _callbacks for tile plugin
+getParameter _requiredCoreApi for tile plugin
+getParameter _requiredThemeApi for tile plugin
+readdir(Resource id #18)
+is_dir(/home/turk1701/hotelblues.com/gallery2/themes/matrix)
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/matrix/theme.inc)
+getParameter _version for matrix plugin
+(mysqli):   SELECT g2_PluginParameterMap.g_itemId,
+g2_PluginParameterMap.g_parameterName,
+g2_PluginParameterMap.g_parameterValue FROM g2_PluginParameterMap WHERE
+g2_PluginParameterMap.g_pluginType = ? AND g2_PluginParameterMap.g_pluginId
+= ? AND g2_PluginParameterMap.g_itemId = ?   [ (0=>'ssi') (1=>'theme')
+(2=>'matrix') (3=>'0')  ]
+getParameter _callbacks for matrix plugin
+getParameter _requiredCoreApi for matrix plugin
+getParameter _requiredThemeApi for matrix plugin
+readdir(Resource id #18)
+closedir(Resource id #18)
+Loading plugin albumselect
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/albumselect/module.inc)
+albumselect plugin successfully instantiated
+Loading plugin archiveupload
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/archiveupload/module.inc)
+archiveupload plugin successfully instantiated
+Loading plugin captcha
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/captcha/module.inc)
+captcha plugin successfully instantiated
+Loading plugin cart
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/cart/module.inc)
+cart plugin successfully instantiated
+Loading plugin colorpack
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/colorpack/module.inc)
+colorpack plugin successfully instantiated
+Loading plugin comment
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/comment/module.inc)
+comment plugin successfully instantiated
+Loading plugin core
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/core/module.inc)
+core plugin successfully instantiated
+Loading plugin customfield
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/customfield/module.inc)
+customfield plugin successfully instantiated
+Loading plugin dcraw
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/dcraw/module.inc)
+dcraw plugin successfully instantiated
+Loading plugin debug
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/debug/module.inc)
+debug plugin successfully instantiated
+Loading plugin digibug
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/digibug/module.inc)
+digibug plugin successfully instantiated
+Loading plugin dynamicalbum
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/dynamicalbum/module.inc)
+dynamicalbum plugin successfully instantiated
+Loading plugin ecard
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/ecard/module.inc)
+ecard plugin successfully instantiated
+Loading plugin exif
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/exif/module.inc)
+exif plugin successfully instantiated
+Loading plugin ffmpeg
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/ffmpeg/module.inc)
+ffmpeg plugin successfully instantiated
+Loading plugin flashvideo
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/flashvideo/module.inc)
+flashvideo plugin successfully instantiated
+Loading plugin fotokasten
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/fotokasten/module.inc)
+fotokasten plugin successfully instantiated
+Loading plugin gd
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/gd/module.inc)
+gd plugin successfully instantiated
+Loading plugin getid3
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/getid3/module.inc)
+getid3 plugin successfully instantiated
+Loading plugin geturls
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/geturls/module.inc)
+geturls plugin successfully instantiated
+Loading plugin hidden
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/hidden/module.inc)
+hidden plugin successfully instantiated
+Loading plugin httpauth
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/httpauth/module.inc)
+httpauth plugin successfully instantiated
+Loading plugin icons
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/icons/module.inc)
+icons plugin successfully instantiated
+Loading plugin imageblock
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/imageblock/module.inc)
+imageblock plugin successfully instantiated
+Loading plugin imageframe
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/imageframe/module.inc)
+imageframe plugin successfully instantiated
+Loading plugin imagemagick
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/imagemagick/module.inc)
+imagemagick plugin successfully instantiated
+Loading plugin integrity
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/integrity/module.inc)
+integrity plugin successfully instantiated
+Loading plugin itemadd
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/itemadd/module.inc)
+itemadd plugin successfully instantiated
+Loading plugin jpegtran
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/jpegtran/module.inc)
+jpegtran plugin successfully instantiated
+Loading plugin keyalbum
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/keyalbum/module.inc)
+keyalbum plugin successfully instantiated
+Loading plugin linkitem
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/linkitem/module.inc)
+linkitem plugin successfully instantiated
+Loading plugin members
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/members/module.inc)
+members plugin successfully instantiated
+Loading plugin migrate
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/migrate/module.inc)
+migrate plugin successfully instantiated
+Loading plugin mime
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/mime/module.inc)
+mime plugin successfully instantiated
+Loading plugin mp3audio
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/mp3audio/module.inc)
+mp3audio plugin successfully instantiated
+Loading plugin multilang
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/multilang/module.inc)
+multilang plugin successfully instantiated
+Loading plugin multiroot
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/multiroot/module.inc)
+multiroot plugin successfully instantiated
+Loading plugin netpbm
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/netpbm/module.inc)
+netpbm plugin successfully instantiated
+Loading plugin newitems
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/newitems/module.inc)
+newitems plugin successfully instantiated
+Loading plugin nokiaupload
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/nokiaupload/module.inc)
+nokiaupload plugin successfully instantiated
+Loading plugin panorama
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/panorama/module.inc)
+panorama plugin successfully instantiated
+Loading plugin password
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/password/module.inc)
+password plugin successfully instantiated
+Loading plugin permalinks
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/permalinks/module.inc)
+permalinks plugin successfully instantiated
+Loading plugin photoaccess
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/photoaccess/module.inc)
+photoaccess plugin successfully instantiated
+Loading plugin picasa
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/picasa/module.inc)
+picasa plugin successfully instantiated
+Loading plugin publishxp
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/publishxp/module.inc)
+publishxp plugin successfully instantiated
+Loading plugin quotas
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/quotas/module.inc)
+quotas plugin successfully instantiated
+Loading plugin randomhighlight
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/randomhighlight/module.inc)
+randomhighlight plugin successfully instantiated
+Loading plugin rating
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/rating/module.inc)
+rating plugin successfully instantiated
+Loading plugin rearrange
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/rearrange/module.inc)
+rearrange plugin successfully instantiated
+Loading plugin register
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/register/module.inc)
+register plugin successfully instantiated
+Loading plugin remote
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/remote/module.inc)
+remote plugin successfully instantiated
+Loading plugin replica
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/replica/module.inc)
+replica plugin successfully instantiated
+Loading plugin reupload
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/reupload/module.inc)
+reupload plugin successfully instantiated
+Loading plugin rewrite
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/rewrite/module.inc)
+rewrite plugin successfully instantiated
+Loading plugin rss
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/rss/module.inc)
+rss plugin successfully instantiated
+Loading plugin search
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/search/module.inc)
+search plugin successfully instantiated
+Loading plugin shutterfly
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/shutterfly/module.inc)
+shutterfly plugin successfully instantiated
+Loading plugin sitemap
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/sitemap/module.inc)
+sitemap plugin successfully instantiated
+Loading plugin sizelimit
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/sizelimit/module.inc)
+sizelimit plugin successfully instantiated
+Loading plugin slideshow
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/slideshow/module.inc)
+slideshow plugin successfully instantiated
+Loading plugin slideshowapplet
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/slideshowapplet/module.inc)
+slideshowapplet plugin successfully instantiated
+Loading plugin thumbnail
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/thumbnail/module.inc)
+thumbnail plugin successfully instantiated
+Loading plugin thumbpage
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/thumbpage/module.inc)
+thumbpage plugin successfully instantiated
+Loading plugin uploadapplet
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/uploadapplet/module.inc)
+uploadapplet plugin successfully instantiated
+Loading plugin useralbum
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/useralbum/module.inc)
+useralbum plugin successfully instantiated
+Loading plugin watermark
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/watermark/module.inc)
+watermark plugin successfully instantiated
+Loading plugin webcam
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/webcam/module.inc)
+webcam plugin successfully instantiated
+Loading plugin webdav
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/webdav/module.inc)
+webdav plugin successfully instantiated
+Loading plugin zipcart
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/zipcart/module.inc)
+zipcart plugin successfully instantiated
+Loading plugin notification
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/notification/module.inc)
+notification plugin successfully instantiated
+Loading plugin snapgalaxy
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/snapgalaxy/module.inc)
+snapgalaxy plugin successfully instantiated
+Loading plugin squarethumb
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/squarethumb/module.inc)
+squarethumb plugin successfully instantiated
+Loading plugin statistics
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/statistics/module.inc)
+statistics plugin successfully instantiated
+realpath(/home/turk1701/hotelblues.com/gallery2/modules/core/classes/../../../)
+realpath(/home/turk1701/hotelblues.com/gallery2/)
+Loading plugin addtoany
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/addtoany/module.inc)
+addtoany plugin successfully instantiated
+Loading plugin linksinthehead
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/linksinthehead/module.inc)
+linksinthehead plugin successfully instantiated
+Loading plugin mapv3
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/mapv3/module.inc)
+mapv3 plugin successfully instantiated
+Loading plugin share
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/modules/share/module.inc)
+share plugin successfully instantiated
+Loading plugin matrix
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/matrix/theme.inc)
+matrix plugin successfully instantiated
+Loading plugin ajaxian
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/ajaxian/theme.inc)
+ajaxian plugin successfully instantiated
+Loading plugin carbon
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/carbon/theme.inc)
+carbon plugin successfully instantiated
+Loading plugin classic
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/classic/theme.inc)
+classic plugin successfully instantiated
+Loading plugin floatrix
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/floatrix/theme.inc)
+floatrix plugin successfully instantiated
+Loading plugin hybrid
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/hybrid/theme.inc)
+hybrid plugin successfully instantiated
+Loading plugin siriux
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/siriux/theme.inc)
+siriux plugin successfully instantiated
+Loading plugin slider
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/slider/theme.inc)
+slider plugin successfully instantiated
+Loading plugin tile
+Class not defined, trying to include it.
+file_exists(/home/turk1701/hotelblues.com/gallery2/themes/tile/theme.inc)
+tile plugin successfully instantiated
+    
