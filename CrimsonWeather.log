@@ -1,82 +1,103 @@
-[04:18:27.431] ================================================
-[04:18:27.431]   Crimson Weather v0.2.1
-[04:18:27.431] ================================================
+[06:18:53.454] ================================================
+[06:18:53.454]   Crimson Weather v0.2.2
+[06:18:53.454] ================================================
 
-[04:18:27.431] [i] Base: 0000000140000000
+[06:18:53.454] [i] Base: 0000000140000000
 
-[04:18:27.431] [i] BuildSig:  0_2_1_RELEASE
-[04:18:27.515] [AOB] WeatherTick = 0000000143474C50
-[04:18:27.591] [AOB] GetRainIntensity = 00000001432BD3B0
-[04:18:27.591] [AOB] ProcessRainState = 00000001434758A0 (Tick+0xAF)
-[04:18:27.591] [AOB] GetSnowIntensity = 00000001432BD460 (Tick+0x248)
-[04:18:27.591] [AOB] GetDustIntensity = 00000001432BD510 (Tick+0x301)
-[04:18:27.591] [AOB] ProcessWindState = 0000000143475680 (Tick+0x457)
-[04:18:27.591] [AOB] ActivateEffect = 0000000143475390 (Tick+0x2AA)
-[04:18:27.591] [AOB] SetIntensity = 00000001432C0B40 (Tick+0x2CC)
-[04:18:28.038] [AOB] CloudPack = 00000001432B82A0
-[04:18:28.439] [AOB] WindPack = 00000001432B8540
-[04:18:28.442] [AOB] PostProcessLayerUpdate = 00000001402EC160
-[04:18:28.442] [AOB] GetLayerMeta = 00000001402EFBF0
-[04:18:28.776] [AOB] PostProcessLayerUpdate xrefs=1
-[04:18:28.777] [AOB]   xref[0] call@000000014084A176
-[04:18:28.777] [AOB] WeatherFrameUpdate(unwind) = 0000000140849E60 (from call@000000014084A176)
-[04:18:28.777] [AOB]   probe fixed d=0x6E call@000000014084A108 -> 000000014084A9D0 bytes=48 83 EC 38 48 8B 81 88 looks=1
-[04:18:28.777] [AOB] AtmosFogBlend(xref-fixed) = 000000014084A9D0 (ppCall-0x6E)
-[04:18:28.777] [AOB] WeatherFrameUpdate = 0000000140849E60
-[04:18:28.777] [AOB] AtmosFogBlend = 000000014084A9D0
-[04:18:28.777] [AOB] g_EnvManagerPtr = 0000000145BE3298
-[04:18:28.777] [AOB] g_NullSentinel = 0000000145C8C49C (=0x00000000)
-[04:18:28.785] [AOB] TimeLowerLimitStore = 00000001404F3AF4 off=0x3CC fn=00000001404F37E0
-[04:18:28.785] [AOB] TimeUpperLimitStore = 00000001404F3B1E off=0x3D0 fn=00000001404F37E0
-[04:18:28.830] [AOB] TimeDebugHandler = 000000014277CD00 (envGetEntity=0x40 envGetTime=0x1B8 entSetTime=0x130)
-[04:18:28.830] [AOB] TimeLayout ready lower=0x3CC upper=0x3D0 curA=0x3C8 curB=0x3C4
-[04:18:28.838] [AOB] NativeToast root=0000000145CEEBB0 outer=0x78 manager=0x790 create=00000001402E00C0 push=00000001402D5790 release=00000001402E0130
-[04:18:29.078] [+] Hooked WeatherTick at 0000000143474C50
-[04:18:29.362] [+] Hooked GetRainIntensity at 00000001432BD3B0
-[04:18:29.581] [+] Hooked GetSnowIntensity at 00000001432BD460
-[04:18:29.790] [+] Hooked GetDustIntensity at 00000001432BD510
-[04:18:30.005] [+] Hooked ProcessWindState at 0000000143475680
-[04:18:30.243] [+] Hooked WindPack at 00000001432B8540
-[04:18:30.481] [+] Hooked CloudPack at 00000001432B82A0
-[04:18:30.697] [+] Hooked PostProcessLayerUpdate at 00000001402EC160
-[04:18:30.912] [+] Hooked WeatherFrameUpdate at 0000000140849E60
-[04:18:31.201] [+] Hooked AtmosFogBlend at 000000014084A9D0
-[04:18:31.205] [W] D3D12 dummy device creation failed (queue hook deferred) hr=0x887A0004
-[04:18:31.483] [+] Hooked CreateDXGIFactory at 00007FFC5374DF20
-[04:18:31.726] [+] Hooked CreateDXGIFactory1 at 00007FFC5374E0C0
-[04:18:31.953] [+] Hooked CreateDXGIFactory2 at 00007FFC5374DFC0
-[04:18:31.953] [+] DXGI hooks ready for ImGui DX12 overlay
-[04:18:32.246] [+] Hooked SetCursorPos at 00007FFC572E5730
-[04:18:32.470] [+] Hooked ClipCursor at 00007FFC572E4740
-[04:18:32.657] [+] Hooked GetRawInputData at 00007FFC572E4E40
-[04:18:32.870] [+] Hooked XInputGetState at 00007FFC49E51750
-[04:18:32.870] [preset] remembered preset armed for in-world auto apply: _No_Clouds.ini
-[04:18:32.870] [+] Ready.
+[06:18:53.454] [i] BuildSig:  0_2_2_RELEASE
+[06:18:53.537] [AOB] WeatherTick = 0000000143474C50
+[06:18:53.599] [AOB] GetRainIntensity = 00000001432BD3B0
+[06:18:53.599] [AOB] ProcessRainState = 00000001434758A0 (Tick+0xAF)
+[06:18:53.599] [AOB] GetSnowIntensity = 00000001432BD460 (Tick+0x248)
+[06:18:53.599] [AOB] GetDustIntensity = 00000001432BD510 (Tick+0x301)
+[06:18:53.599] [AOB] ProcessWindState = 0000000143475680 (Tick+0x457)
+[06:18:53.599] [AOB] ActivateEffect = 0000000143475390 (Tick+0x2AA)
+[06:18:53.599] [AOB] SetIntensity = 00000001432C0B40 (Tick+0x2CC)
+[06:18:54.077] [AOB] CloudPack = 00000001432B82A0
+[06:18:54.423] [AOB] WindPack = 00000001432B8540
+[06:18:54.426] [AOB] PostProcessLayerUpdate = 00000001402EC160
+[06:18:54.426] [AOB] GetLayerMeta = 00000001402EFBF0
+[06:18:54.733] [AOB] PostProcessLayerUpdate xrefs=1
+[06:18:54.733] [AOB]   xref[0] call@000000014084A176
+[06:18:54.733] [AOB] WeatherFrameUpdate(unwind) = 0000000140849E60 (from call@000000014084A176)
+[06:18:54.733] [AOB]   probe fixed d=0x6E call@000000014084A108 -> 000000014084A9D0 bytes=48 83 EC 38 48 8B 81 88 looks=1
+[06:18:54.733] [AOB] AtmosFogBlend(xref-fixed) = 000000014084A9D0 (ppCall-0x6E)
+[06:18:54.733] [AOB] WeatherFrameUpdate = 0000000140849E60
+[06:18:54.733] [AOB] AtmosFogBlend = 000000014084A9D0
+[06:18:54.733] [AOB] g_EnvManagerPtr = 0000000145BE3298
+[06:18:54.733] [AOB] g_NullSentinel = 0000000145C8C49C (=0x00000000)
+[06:18:54.741] [AOB] TimeLowerLimitStore = 00000001404F3AF4 off=0x3CC fn=00000001404F37E0
+[06:18:54.741] [AOB] TimeUpperLimitStore = 00000001404F3B1E off=0x3D0 fn=00000001404F37E0
+[06:18:54.789] [AOB] TimeDebugHandler = 000000014277CD00 (envGetEntity=0x40 envGetTime=0x1B8 entSetTime=0x130)
+[06:18:54.789] [AOB] TimeLayout ready lower=0x3CC upper=0x3D0 curA=0x3C8 curB=0x3C4
+[06:18:54.800] [AOB] NativeToast root=0000000145CEEBB0 outer=0x78 manager=0x790 create=00000001402E00C0 push=00000001402D5790 release=00000001402E0130
+[06:18:55.041] [+] Hooked WeatherTick at 0000000143474C50
+[06:18:55.247] [+] Hooked GetRainIntensity at 00000001432BD3B0
+[06:18:55.510] [+] Hooked GetSnowIntensity at 00000001432BD460
+[06:18:55.700] [+] Hooked GetDustIntensity at 00000001432BD510
+[06:18:55.909] [+] Hooked ProcessWindState at 0000000143475680
+[06:18:56.143] [+] Hooked WindPack at 00000001432B8540
+[06:18:56.387] [+] Hooked CloudPack at 00000001432B82A0
+[06:18:56.632] [+] Hooked PostProcessLayerUpdate at 00000001402EC160
+[06:18:56.849] [+] Hooked WeatherFrameUpdate at 0000000140849E60
+[06:18:57.103] [+] Hooked AtmosFogBlend at 000000014084A9D0
+[06:18:57.106] [W] D3D12 dummy device creation failed (queue hook deferred) hr=0x887A0004
+[06:18:57.326] [+] Hooked CreateDXGIFactory at 00007FFC5374DF20
+[06:18:57.593] [+] Hooked CreateDXGIFactory1 at 00007FFC5374E0C0
+[06:18:57.819] [+] Hooked CreateDXGIFactory2 at 00007FFC5374DFC0
+[06:18:57.819] [+] DXGI hooks ready for ImGui DX12 overlay
+[06:18:58.038] [+] Hooked SetCursorPos at 00007FFC572E5730
+[06:18:58.283] [+] Hooked ClipCursor at 00007FFC572E4740
+[06:18:58.531] [+] Hooked GetRawInputData at 00007FFC572E4E40
+[06:18:58.723] [+] Hooked XInputGetState at 00007FFC49E51750
+[06:18:58.724] [preset] remembered preset armed for in-world auto apply: _No_Clouds.ini
+[06:18:58.724] [+] Ready.
 
-[04:18:37.388] [+] Hooked IDXGIFactory::CreateSwapChain at 00007FFC537903E0
-[04:18:37.682] [+] Hooked IDXGIFactory2::CreateSwapChainForHwnd at 00007FFC53790CC0
-[04:18:44.750] [+] Hooked ID3D12CommandQueue::ExecuteCommandLists at 00007FFB9C533370
-[04:18:44.750] [+] D3D12 queue hook installed execute=00007FFB9C533370
-[04:18:45.016] [+] Hooked IDXGISwapChain::Present at 00007FFC537318C0
-[04:18:45.357] [+] Hooked IDXGISwapChain::ResizeBuffers at 00007FFC53752810
-[04:18:45.366] [W] Ignoring non-direct ExecuteCommandLists queue type=3
-[04:19:02.189] [+] Hooked FogSet0 at 00000001432B81A0
-[04:19:02.415] [+] Hooked FogSet1 at 00000001432B81E0
-[04:19:02.637] [+] Hooked FogSet2 at 00000001432B8220
-[04:19:02.873] [+] Hooked FogSet3 at 00000001432B8150
-[04:19:03.117] [+] Hooked FogSet4 at 00000001432B8260
-[04:19:03.117] [fogset] install done installed=1 addrs=(00000001432B81A0,00000001432B81E0,00000001432B8220,00000001432B8150,00000001432B8260)
-[04:19:04.296] [+] ImGui DX12 initialized
-[04:19:10.096] [preset] refresh -> 1 valid preset(s)
-[04:19:51.338] [i] Weather control disabled
-[04:19:51.338] [i] Native toast shown: CRIMSON WEATHER DISABLED
-[04:19:51.999] [i] Weather control enabled
-[04:19:51.999] [i] Native toast shown: CRIMSON WEATHER ENABLED
-[04:20:05.201] [visual-time] baseline limits lower=0.0000 upper=24.0000 domain=hours
-[04:20:06.191] [preset] world ready after 1.01s; applying remembered preset
-[04:20:06.192] [i] Native toast shown: ACTIVATED PRESET: _No_Clouds
-[04:20:06.192] [preset] loaded _No_Clouds.ini
-[04:20:06.192] [preset] auto applied _No_Clouds.ini
-[04:20:06.192] [Custom] Entered custom slider mode
-[04:20:24.428] [i] Weather control disabled
-[04:20:24.428] [i] Native toast shown: CRIMSON WEATHER DISABLED
+[06:19:03.182] [+] Hooked IDXGIFactory::CreateSwapChain at 00007FFC537903E0
+[06:19:03.436] [+] Hooked IDXGIFactory2::CreateSwapChainForHwnd at 00007FFC53790CC0
+[06:19:10.328] [+] Hooked ID3D12CommandQueue::ExecuteCommandLists at 00007FFBDC6D3370
+[06:19:10.329] [+] D3D12 queue hook installed execute=00007FFBDC6D3370
+[06:19:10.670] [+] Hooked IDXGISwapChain::Present at 00007FFC537318C0
+[06:19:10.949] [+] Hooked IDXGISwapChain::ResizeBuffers at 00007FFC53752810
+[06:19:10.959] [W] Ignoring non-direct ExecuteCommandLists queue type=3
+[06:19:11.048] [overlay] captured direct queue=000000008404F400 device=0000000000000000
+[06:19:27.664] [+] Hooked FogSet0 at 00000001432B81A0
+[06:19:27.940] [+] Hooked FogSet1 at 00000001432B81E0
+[06:19:28.157] [+] Hooked FogSet2 at 00000001432B8220
+[06:19:28.463] [+] Hooked FogSet3 at 00000001432B8150
+[06:19:28.693] [+] Hooked FogSet4 at 00000001432B8260
+[06:19:28.693] [fogset] install done installed=1 addrs=(00000001432B81A0,00000001432B81E0,00000001432B8220,00000001432B8150,00000001432B8260)
+[06:19:29.423] [overlay] captured direct queue=000000008404DBD0 device=0000000000000000
+[06:19:29.809] [overlay] captured direct queue=00000000C7234B80 device=0000000000000000
+[06:19:29.839] [overlay] queue frozen at init=00000000C7234B80
+[06:19:29.839] [+] ImGui DX12 initialized
+[06:19:29.839] [overlay] first render attempt sc=00000000E186BEB0 owner_sc=00000000E186BEB0 queue=00000000C7234B80 frame_count=3 format=28 src=Present
+[06:19:29.853] [preset] refresh -> 1 valid preset(s)
+[06:19:29.855] [overlay] command list ready frame=0 target=00000000C68CBE10
+[06:19:29.859] [overlay] ignoring direct queue change after init old=00000000C7234B80 new=000000008404DBD0
+[06:19:38.980] [i] Native toast shown: ACTIVATED PRESET: _No_Clouds
+[06:19:38.980] [preset] loaded _No_Clouds.ini
+[06:19:54.678] [preset] saved _No_Clouds.ini
+[06:19:58.783] [i] Native toast shown: ACTIVATED PRESET: _No_Clouds
+[06:19:58.783] [preset] loaded _No_Clouds.ini
+[06:20:07.528] [preset] saved _No_Clouds.ini
+[06:20:56.265] [overlay] menu open via keyboard imgui=1 queue=00000000C7234B80 owner_sc=00000000E186BEB0 amd_fg=1 dlssg=1 streamline=1 xefg=0
+[06:20:56.265] [overlay] first render attempt sc=00000000E186BEB0 owner_sc=00000000E186BEB0 queue=00000000C7234B80 frame_count=3 format=28 src=Present
+[06:20:56.266] [overlay] command list ready frame=0 target=00000000C68CBE10
+[06:20:59.869] [overlay] menu open via keyboard imgui=1 queue=00000000C7234B80 owner_sc=00000000E186BEB0 amd_fg=1 dlssg=1 streamline=1 xefg=0
+[06:20:59.869] [overlay] first render attempt sc=00000000E186BEB0 owner_sc=00000000E186BEB0 queue=00000000C7234B80 frame_count=3 format=28 src=Present
+[06:20:59.869] [overlay] command list ready frame=2 target=00000000C68CFD80
+[06:20:59.952] [Custom] Entered custom slider mode
+[06:20:59.952] [visual-time] baseline limits lower=0.0000 upper=24.0000 domain=hours
+[06:21:00.946] [preset] world ready after 1.02s; applying remembered preset
+[06:21:00.947] [i] Native toast shown: ACTIVATED PRESET: _No_Clouds
+[06:21:00.947] [preset] loaded _No_Clouds.ini
+[06:21:00.947] [preset] auto applied _No_Clouds.ini
+[06:21:29.280] [overlay] menu open via keyboard imgui=1 queue=00000000C7234B80 owner_sc=00000000E186BEB0 amd_fg=1 dlssg=1 streamline=1 xefg=0
+[06:21:29.281] [overlay] first render attempt sc=00000000E186BEB0 owner_sc=00000000E186BEB0 queue=00000000C7234B80 frame_count=3 format=28 src=Present
+[06:21:29.281] [overlay] command list ready frame=1 target=00000000C68CF470
+[06:22:25.937] [i] Native toast shown: ACTIVATED PRESET: _No_Clouds
+[06:22:25.937] [preset] loaded _No_Clouds.ini
+[06:22:35.386] [overlay] menu open via keyboard imgui=1 queue=00000000C7234B80 owner_sc=00000000E186BEB0 amd_fg=1 dlssg=1 streamline=1 xefg=0
+[06:22:35.386] [overlay] first render attempt sc=00000000E186BEB0 owner_sc=00000000E186BEB0 queue=00000000C7234B80 frame_count=3 format=28 src=Present
+[06:22:35.386] [overlay] command list ready frame=2 target=00000000C68CFD80
